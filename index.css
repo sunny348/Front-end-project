@@ -1,0 +1,1223 @@
+@font-face {
+  font-family: "Code";
+  src: url("CODE\ Bold.otf");
+}
+
+@font-face {
+  font-family: "Code Light";
+  src: url("CODE\ Light.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  background-image: url("../background\ \(3\).png");
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 120px;
+  line-height: 100px;
+  color: #e84f88;
+  font-family: "Code";
+  padding-top: 10rem;
+  padding-left: rem;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: transparent;
+}
+
+.icon,
+.Trends,
+.collections,
+.designers {
+  margin-left: 20px;
+}
+
+.nav-search {
+  margin-left: 850px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  margin-left: 8px;
+}
+
+.search-input {
+  margin-left: 10px;
+  width: 200px;
+}
+
+.bucket {
+  margin-left: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  border-bottom: 1px solid black;
+}
+
+.icon.border:hover,
+.Trends.border:hover,
+.collections.border:hover,
+.designers.border:hover,
+.bucket.border:hover,
+.search-icon.border:hover {
+  border: 0.5px solid black;
+}
+
+.box {
+  display: flex;
+}
+
+.box1 {
+  width: 400px;
+  height: 314px;
+  background-color: #ecf3e8;
+  position: relative;
+}
+.spring {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.text {
+  font-size: 48px;
+  line-height: 100px;
+  color: #5b3f61;
+  font-weight: 300;
+  font-family: "Code";
+}
+
+.box2 {
+  width: 280px;
+  height: 314px;
+
+  position: relative;
+  background-color: #f1e5e5;
+}
+.summer {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.text2 {
+  font-size: 48px;
+  line-height: 100px;
+  color: #e84f88;
+  font-weight: bold;
+  font-family: "Code";
+}
+
+.box3 {
+  width: 350px;
+  height: 314px;
+  background-color: #f6f3e6;
+  position: relative;
+}
+.autumn {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.text3 {
+  font-size: 48px;
+  line-height: 100px;
+  color: #5b3f61;
+  font-weight: 300;
+  font-family: "Code";
+}
+
+.box4 {
+  width: 500px;
+  height: 314px;
+  background-color: #ecf4f5;
+  position: relative;
+}
+
+.winter {
+  position: absolute;
+  bottom: 20px;
+  right: 100qpx;
+}
+
+.text4 {
+  font-size: 48px;
+  line-height: 100px;
+  color: #5b3f61;
+  font-weight: 300;
+  font-family: "Code";
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 800px; /* Set the height of the container to match the height of img2 */
+  position: relative;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2px; /* Adjust margin as needed */
+}
+
+.img1 {
+  margin-right: 25px;
+  margin-top: 60px;
+  height: 300px;
+  width: auto; /* Reset width to auto */
+}
+
+.img2 {
+  margin-top: 60px;
+  width: auto; /* Push img2 to the center */
+}
+
+.img3 {
+  margin-right: 25px;
+  margin-top: 29px;
+  height: 300px;
+  width: auto; /* Reset width to auto */
+}
+
+.image-wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: auto;
+}
+
+.img4,
+.img5,
+.img6 {
+  flex: 1;
+  height: 100%;
+}
+
+.img5 {
+  margin-left: 40px;
+}
+.img6 {
+  margin-left: 30px;
+}
+
+.img4 {
+  margin-left: 150px;
+}
+
+.img7 {
+  margin-left: 25px;
+}
+
+.img-wrapper3 {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px; /* Adjust the height as needed */
+  margin-top: 40px; /* Adjust the top margin as needed */
+}
+
+.img-wrapper3 img {
+  height: 100%; /* Make sure all images take up full height */
+  width: auto; /* Reset width to auto */
+  margin-right: 20px; /* Adjust spacing between images */
+}
+
+.img-container {
+  position: relative;
+  display: inline-block; /* Ensure proper alignment */
+}
+
+.overlay-icon {
+  position: absolute;
+  top: 10px; /* Adjust vertical position of the heart icon */
+  right: 10px; /* Adjust horizontal position of the heart icon */
+  color: rgb(107, 106, 106); /* Change the color of the heart icon */
+  font-size: 15px; /* Adjust the size of the heart icon */
+}
+
+.class2 {
+  background-image: url("../background\ \(4\).png");
+}
+
+.heart,
+.heart2,
+.heart3,
+.heart4,
+.heart5,
+.heart6,
+.heart7,
+.heart8,
+.heart9 {
+  position: absolute;
+  top: 10px; /* Adjust vertical position of the hearts */
+  right: 10px; /* Adjust horizontal position of the hearts */
+}
+
+.plus,
+.plus2,
+.plus3,
+.plus4,
+.plus5,
+.plus6,
+.plus7,
+.plus8,
+.plus9 {
+  position: absolute;
+  top: 10px; /* Adjust vertical position of the plus icons */
+  right: 30px; /* Adjust horizontal position of the plus icons */
+  color: rgb(107, 106, 106);
+}
+
+.heart3 {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+}
+.plus3 {
+  position: absolute;
+  top: 70px;
+  right: 50px;
+}
+.heart {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+}
+.plus {
+  position: absolute;
+  top: 70px;
+  right: 50px;
+}
+
+.heart2 {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+.plus2 {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+
+.heart9 {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.plus9 {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.heart7 {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.plus7 {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.heart8 {
+  position: absolute;
+  top: 10px;
+  right: 35px;
+}
+.plus8 {
+  position: absolute;
+  top: 10px;
+  right: 53px;
+}
+
+.box5 > p {
+  margin-top: 60px;
+  border: 2px solid #f9f9f8;
+  height: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  width: 1400px;
+
+  background-color: #f9f9f8;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 100px;
+  color: #e84f88;
+  font-weight: 700;
+  font-family: "Karla";
+}
+
+
+
+.box7 {
+  border: 2px solid #f8f5f5;;
+  width: 350px;
+  position: absolute;
+  top: 3000px;
+  background-color: #f4f0f0;
+  margin-left: 20px;
+}
+
+
+.box6 {
+  border: 2px solid #f8f5f5;;
+
+  width: 1100px;
+  height: 500px;
+  position: absolute;
+  font-size: 36px;
+line-height: 48px;
+color: #e84f88;
+font-weight: 300;
+font-family: "Code";
+background-color: #f8f5f5;
+
+  top:3000px;
+  
+
+  left: 350px;
+}
+.img10 {
+  margin-top: 40px;
+}
+
+
+.img11 {
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.img12 {
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+
+
+.dot {
+  display: flex;
+  flex-direction: column;
+  margin-left: 900px;
+  position: absolute;
+  top: 100px;
+}
+
+
+
+
+.more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.more-button:hover {
+  background-color: #000; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+.txt {
+  margin-top: 1000px;
+  margin-left: 250px;
+  background-image: url("../Layer\ 49.png");
+  height: 400px;
+  background-repeat: no-repeat;
+  background: size 1000px;
+}
+
+.foo {
+  border: 2px solid grey;
+  width: 1520px;
+height: 200px;
+background-color: #f4f4f4;
+font-weight:500px;
+}
+
+.back {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+.home {
+  position: absolute;
+  left: 2%;
+  top:588%;
+}
+.about {
+  position: absolute;
+  left: 8%;
+  top:588%;
+
+
+}
+
+.contact {
+  position: absolute;
+  left: 15%;
+  top:588%;
+}
+
+.owners {
+  font-size: 14px;
+  line-height: 100px;
+  color: #919191;
+  font-weight: 400;
+  font-family: "Karla";
+  position: absolute;
+  top: 4200px;
+  left: 25px;
+}
+
+.home,
+.about,
+.contact {
+  color: grey; /* Set the color to grey */
+  text-decoration: none; /* Remove underline */
+}
+
+.home:hover,
+.about:hover,
+.Contact:hover {
+  color: grey; /* Keep the color grey on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.user-textbox {
+  border: 2px solid whitesmoke;
+  position: absolute;
+  right: 250px;
+  top: 4200px;
+  color: #919191;
+}
+
+.subscribe-btn {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Padding around the text */
+  font-size: 16px; /* Font size */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  position: absolute;
+  right: 120px;
+  top: 4200px;
+}
+
+.subscribe-btn:hover {
+  background-color: #b30009; /* Darker background color on hover */
+}
+
+
+.media {
+  display: flex;
+ 
+}
+
+.facebook {
+  position: absolute;
+  left: 94%;
+  top: 598%;
+
+}
+
+.pinterest {
+  position: absolute;
+  left: 92%;
+  top: 598%;
+
+}
+.twitter {
+  position: absolute;
+  left: 90%;
+  top: 598%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phone view */
+
+@media only screen and (max-width:600px) {
+  /* .main .image p{
+    width: 400px;
+    height: 200px;
+  } */
+  body{
+   
+    overflow-x: hidden;
+  }
+
+
+
+  .image {
+    background-image: url("../background\ \(3\).png");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 120px;
+    line-height: 100px;
+    color: #e84f88;
+    font-family: "Code";
+    padding-top: 10rem;
+    padding-left: rem;
+  }
+  
+  .navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: transparent;
+  }
+  
+  .icon,
+  .Trends,
+  .collections,
+  .designers {
+    margin-left: 20px;
+  }
+  
+  .nav-search {
+    position: absolute;
+    right: -250px;
+    margin-left: 850px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    margin-left: 8px;
+  }
+  
+  .search-input {
+    margin-left: 10px;
+    width: 200px;
+  }
+  
+  .bucket {
+    margin-left: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .icon.border:hover,
+  .Trends.border:hover,
+  .collections.border:hover,
+  .designers.border:hover,
+  .bucket.border:hover,
+  .search-icon.border:hover {
+    border: 0.5px solid black;
+  }
+  
+  .box {
+    display: flex;
+  }
+  
+  .box1 {
+    width: 400px;
+    height: 314px;
+    background-color: #ecf3e8;
+    position: relative;
+  }
+  .spring {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+  }
+  
+  .text {
+    font-size: 30px;
+    line-height: 100px;
+    color: #5b3f61;
+    font-weight: 300;
+    font-family: "Code";
+  }
+  
+  .box2 {
+    width: 380px;
+    height: 314px;
+  
+    position: relative;
+    background-color: #f1e5e5;
+  }
+  .summer {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    left: 4px;
+  }
+  
+  .text2 {
+    font-size: 30px;
+    line-height: 100px;
+    color: #e84f88;
+    font-weight: bold;
+    font-family: "Code";
+  }
+  
+  .box3 {
+    width: 350px;
+    height: 314px;
+    background-color: #f6f3e6;
+    position: relative;
+  }
+  .autumn {
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+  }
+  
+  .text3 {
+    font-size: 30px;
+    line-height: 100px;
+    color: #5b3f61;
+    font-weight: 300;
+    font-family: "Code";
+  }
+  
+  .box4 {
+    width: 500px;
+    height: 314px;
+    background-color: #ecf4f5;
+    position: relative;
+  }
+  
+  .winter {
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+  }
+  
+  .text4 {
+    font-size: 30px;
+    line-height: 100px;
+    color: #5b3f61;
+    font-weight: 300;
+    font-family: "Code";
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 800px; /* Set the height of the container to match the height of img2 */
+    position: relative;
+  }
+  
+  .img-wrapper {
+    display: flex;
+   
+    align-items: center;
+    margin-top: 2px; /* Adjust margin as needed */
+  }
+  
+  .img1 {
+    width: auto; /* Reset width to auto */
+    margin: 10px auto; /* Center the images horizontally with 10px margin */
+    display: block; /* Ensure each image occupies its own row */
+    max-width: 90%; /* Limit the maximum width of each image */
+    height: auto; /* Allow images to adjust their height */
+  }
+  
+  .img2 {
+
+    width: auto; /* Reset width to auto */
+    margin: 10px auto; /* Center the images horizontally with 10px margin */
+    display: block; /* Ensure each image occupies its own row */
+    max-width: 90%; /* Limit the maximum width of each image */
+    height: 300px; /* Allow images to adjust their height */
+   
+  }
+  
+  .img3 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+  
+  .image-wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: auto;
+  }
+  
+  .img4,
+  .img5,
+  .img6 {
+    flex: 1;
+    height: 100%;
+  }
+  
+
+  .img4 {
+    
+    width: auto; /* Reset width to auto */
+    margin: 10px auto; /* Center the images horizontally with 10px margin */
+    display: block; /* Ensure each image occupies its own row */
+    max-width: 73%; /* Limit the maximum width of each image */
+    height: 300px; /* Allow images to adjust their height */
+    margin-right: 100px;
+   
+
+
+  }
+  .img5 {
+    margin-left: 40px;
+  }
+  .img6 {
+    margin-left: 30px;
+
+    
+  }
+  
+  .img4 {
+    margin-left: 150px;
+  }
+  
+  .img7 {
+     
+    width: auto; /* Reset width to auto */
+    margin: 10px auto; /* Center the images horizontally with 10px margin */
+    display: block; /* Ensure each image occupies its own row */
+    max-width: 73%; /* Limit the maximum width of each image */
+    height: 300px; /* Allow images to adjust their height */
+    margin-right: 100px;
+   
+
+    
+    
+  }
+  
+ 
+
+  .img-wrapper3 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px; /* Adjust the height as needed */
+    margin-top: 40px; /* Adjust the top margin as needed */
+  }
+  
+  .img-wrapper3 img {
+    height: 100%; /* Make sure all images take up full height */
+    width: auto; /* Reset width to auto */
+    margin-right: 20px; /* Adjust spacing between images */
+  }
+  
+  .img-container {
+    position: relative;
+    display: inline-block; /* Ensure proper alignment */
+  }
+  
+  .overlay-icon {
+    position: absolute;
+    top: 10px; /* Adjust vertical position of the heart icon */
+    right: 10px; /* Adjust horizontal position of the heart icon */
+    color: rgb(107, 106, 106); /* Change the color of the heart icon */
+    font-size: 15px; /* Adjust the size of the heart icon */
+  }
+  
+  .class2 {
+    background-image: url("../background\ \(4\).png");
+  }
+  
+  .heart,
+
+  .heart3,
+  .heart4,
+  .heart5,
+  .heart6,
+  .heart7,
+ 
+  .heart9 {
+    position: absolute;
+    top: 10px; /* Adjust vertical position of the hearts */
+    right: 10px; /* Adjust horizontal position of the hearts */
+  }
+  
+  .plus,
+
+  .plus3,
+  .plus4,
+  .plus5,
+  .plus6,
+  .plus7,
+
+  .plus9 {
+    position: absolute;
+    top: 10px; /* Adjust vertical position of the plus icons */
+    right: 30px; /* Adjust horizontal position of the plus icons */
+    color: rgb(107, 106, 106);
+  }
+  
+  .heart3 {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+  }
+  .plus3 {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+  }
+  .heart {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+  }
+  .plus {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+  }
+  
+
+  
+  
+  
+  .heart7 {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+  }
+  .plus7 {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+  .heart8 {
+    position: absolute;
+    top: 10px;
+    right: 35px;
+  }
+  .plus8 {
+    position: absolute;
+    top: 10px;
+    right: 53px;
+  }
+  
+  .box5 > p {
+    margin-top: 60px;
+    border: 2px solid #f9f9f8;
+    height: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    width: 500px;
+  
+    background-color: #f9f9f8;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 100px;
+    color: #e84f88;
+    font-weight: 700;
+    font-family: "Karla";
+  }
+  
+
+  
+  
+  .img10 {
+    margin-top: 40px;
+  }
+  
+  .img11 {
+    position: static; /* Reset positioning */
+    margin-top: 20px; /* Add some spacing from the top */
+    margin-left: 20px; /* Add some spacing from the left */
+    width: calc(100% - 40px); /* Take up full width with some padding on the sides */
+  }
+
+  .img12 {
+    position: static; /* Reset positioning */
+    margin-top: 20px; /* Add some spacing from the top */
+    margin-left: 20px; /* Add some spacing from the left */
+    width: calc(100% - 40px); /* Take up full width with some padding on the sides */
+  }
+
+  
+  .dot {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    position: absolute;
+    top: 50%;
+  }
+  
+  .more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .more-button:hover {
+    background-color: #000; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  .txt {
+    margin-top: 300px;
+    margin-left: 25px;
+    background-image: url("../Layer\ 49.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 500px
+  }
+  
+  .foo {
+    border: 2px solid rgb(192, 188, 188);
+    width: 600px;
+    height: 300px;
+    background-color: #f4f4f4;
+    font-weight: 500px;
+    position: absolute;
+    margin-top: 1600px;
+
+  }
+  
+  .back {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Courier New", Courier, monospace;
+    cursor: pointer;
+  }
+  
+  .home {
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 10%;
+  }
+  
+  .about {
+    cursor: pointer;
+    position: absolute;
+    left: 70px;
+    top: 10%;
+  }
+  
+  .contact {
+    cursor: pointer;
+    position: absolute;
+    left: 150px;
+    top: 10%;
+  }
+  
+  
+  .owners {
+    font-size: 14px;
+    line-height: 100px;
+    color: #919191;
+    font-weight: 400;
+    font-family: "Karla";
+    position: absolute;
+    top: 100px;
+    left: 25px;
+  }
+  
+  .home,
+  .about,
+  .contact {
+    color: grey; /* Set the color to grey */
+    text-decoration: none; /* Remove underline */
+    
+  }
+  
+  .home:hover,
+  .about:hover,
+  .Contact:hover {
+    color: grey; /* Keep the color grey on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .user-textbox {
+    border: 2px solid whitesmoke;
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    color: #919191;
+  }
+  
+  .subscribe-btn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+    position: absolute;
+    right: 250px;
+    top: 200px;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #b30009; /* Darker background color on hover */
+  }
+  
+  
+  .media {
+    display: flex;
+   
+  }
+  
+  .facebook {
+    position: absolute;
+    top: 30px;
+    left: 500px;
+  
+  }
+  
+  .pinterest {
+    position: absolute;
+    top: 30px;
+    left: 450px;
+  
+  }
+  .twitter {
+    position: absolute;
+
+    top: 30px;
+    left: 380px;
+  }
+  
+  
+  
+  
+  .heart2 {
+    position: absolute;
+    top: 150px;
+    left: 270px;
+  }
+    
+  .plus2 {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+  }
+
+
+  .box7 {
+    border: 2px solid #f8f5f5;;
+    
+    background-color: #f4f0f0;
+    margin-left: 20px;
+    margin-top: 500px;
+    width: 900px;
+  }
+  
+  
+  .box6 {
+    border: 2px solid #f8f5f5;;
+  
+    width: 500px;
+    height: 700px;
+    
+    font-size: 36px;
+  line-height: 48px;
+  color: #e84f88;
+  font-weight: 300;
+  font-family: "Code";
+  background-color: #f8f5f5;
+  margin-top: 1000px;
+  margin-left: -320px;
+  
+    
+  }
+
+  .heart9 {
+    position: absolute;
+    right: 95px;
+    
+  }
+
+
+
+.plus9 {
+  position: absolute;
+  right: 48%;
+}
